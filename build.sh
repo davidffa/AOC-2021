@@ -8,6 +8,6 @@ fi
 set -xe
 
 CC=cc
-CFLAGS="-Wall -Wextra -Wshadow -pedantic -std=c11"
+CFLAGS="-Wall -Wextra -Wshadow -pedantic -std=c11 -lm"
 
 cd $1 && $CC $CFLAGS -o $1 main.c && ./$1 && cd ..
