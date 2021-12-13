@@ -1,6 +1,6 @@
 # Advent Of Code 2021 in C
 
-This repository contains my solutions for Advent Of Code 2021 written in C.
+This repository contains my solutions for [Advent Of Code 2021](https://adventofcode.com/2021) written in C.
 
 ## Running
 ```console
