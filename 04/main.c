@@ -141,7 +141,7 @@ void part1()
 
 void part2()
 {
-  memset(winner_boards, 0, sizeof(bool) + BOARDS_CAP);
+  memset(winner_boards, 0, sizeof(bool) * BOARDS_CAP);
 
   int i, j, sum = 0, winner_cnt = 0;
   union Board *last_winner = NULL;

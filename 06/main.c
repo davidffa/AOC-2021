@@ -68,4 +68,6 @@ int main(void)
 {
   part1();
   part2();
+
+  return 0;
 }

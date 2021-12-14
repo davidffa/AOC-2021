@@ -69,4 +69,6 @@ int main(void)
   read_input();
   part1();
   part2();
+
+  return 0;
 }
